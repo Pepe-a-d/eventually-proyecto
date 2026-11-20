@@ -26,6 +26,7 @@ Escrito el 20 de noviembre de 2026. Recoge lo hecho y decidido en el Mac entre e
 - Es una segunda película movida por el scroll, al final de la página, entre «Por si acaso» y el reloj en hora: cómo se abre la caja en cinco gestos y cómo se cierra. 189 fotogramas en `site/frames/caja/`, código en `site/caja.js` y `site/caja.css`. No se descarga hasta que te acercas.
 - Trae también dos notas nuevas en «Por si acaso»: «Si pierdes la aguja» e «Imanes». Con esto quedan puestos la pista de apertura y el aviso del imán.
 - Comprobado en el Mac: móvil y escritorio, sin errores, la película del reloj sigue igual, y funciona sin conexión.
+- En la portada hay un enlace discreto, «¿Cómo se abre la caja?», que baja directo al tutorial: quien llega con la caja cerrada no tiene que recorrer toda la página. Lo pidió Pepe.
 - Al probar la copia sin conexión salió un fallo que ya existía: una dirección con «?algo» podía enseñar una copia vieja de la página. Arreglado en `site/sw.js`.
 
 **Ojo con el tutorial:**
@@ -39,7 +40,6 @@ Escrito el 20 de noviembre de 2026. Recoge lo hecho y decidido en el Mac entre e
 
 - Probarla en un móvil real, sobre todo en un iPhone.
 - Grabar la etiqueta NFC con la dirección de la web.
-- Decidir dónde va el tutorial. Quien llega desde la etiqueta NFC con la caja cerrada tiene que bajar hasta el final. Una opción: un enlace discreto arriba, «¿Cómo se abre la caja?».
 - Dar por buenos los textos del tutorial, que son una propuesta de la sesión del PC.
 
 ## 3. La tarjeta de autenticidad
@@ -102,7 +102,7 @@ Los imanes: 8 en la caja, 2 en la aguja de repuesto, quedan 4.
 2. ¿Está el reloj montado? Si lo está, faltan las medidas.
 3. ¿Cómo quieres que la caja salga de la funda? Que se quede en la mesa al levantar la funda, que aguante colgada, o las dos cosas con dos medias lunas para los dedos.
 4. ¿La aguja lleva pomo?
-5. ¿Dónde va el tutorial de la caja en la web, y valen sus textos?
+5. ¿Valen los textos del tutorial de la caja?
 
 ## 6. Cómo trabajamos
 
