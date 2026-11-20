@@ -36,7 +36,8 @@ Escrito el 20 de noviembre de 2026. Recoge lo hecho y decidido en el Mac entre e
 - La web lo recuerda en cada teléfono por separado. Si se abre en modo privado no puede recordarlo: salen siempre las instrucciones hasta pulsar «Ya lo tengo».
 - **Para probar:** la dirección acabada en `?caja` vuelve a la primera visita; acabada en `?reloj` va directa al reloj.
 - La decisión está en el script de la cabecera de `site/index.html`; lo que se esconde, al final de `site/caja.css`.
-- Lo que todavía puede destripar: el paso 5 de las instrucciones enseña el maniquí gris del reloj, y si se manda el enlace por WhatsApp la vista previa enseña la foto del reloj (`og:image`).
+- La vista previa del enlace (la que sale al mandarlo por WhatsApp) enseña la caja cerrada, `site/img/enlace.jpg`, y solo la frase «Llegará. Cuando llegue.». Si la caja cambia a la vista, hay que rehacer también esta imagen.
+- Lo que todavía puede destripar: el paso 5 de las instrucciones enseña el maniquí gris del reloj, y el icono que queda si alguien añade la web a la pantalla de inicio es la esfera del reloj.
 
 **Ojo con el tutorial:**
 
