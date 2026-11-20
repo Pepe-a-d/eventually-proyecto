@@ -1,0 +1,5 @@
+site/
+caja/
+.DS_Store
+.claude/scheduled_tasks.lock
+__pycache__/

@@ -1,0 +1,121 @@
+{
+  "project": "eventually",
+  "title": "Eventually — Late Edition · 1 of 1",
+  "lang": "es",
+  "aspect": "9:16",
+  "fps": 24,
+  "seconds_per_segment": 8,
+  "style_bible": {
+    "one_line": "A watch assembles itself piece by piece on a sheet of white paper, seen from directly above in soft window light; blue ink is the only colour.",
+    "palette": ["#F4F3EF", "#B9BDC1", "#C9A45C", "#1F3FA8", "#8D9096"],
+    "background": "seamless sheet of matte white cotton paper with a fine visible grain, filling the whole frame edge to edge",
+    "lens": "90mm macro lens, camera locked off directly overhead, perfectly perpendicular top-down view, everything in sharp focus",
+    "light": "soft diffused daylight from the top-left, one short soft shadow falling to the bottom-right, no hard reflections",
+    "grade": "clean neutral whites, low contrast, true-to-life colour, no vignette",
+    "render": "photoreal studio product photograph",
+    "negative": "watermark, store logo, brand name, extra text, extra numerals, extra hands, hour markers, date window, sub-dials, pushers, human hands, tools, vignette, dark background, tilted camera, perspective distortion",
+    "seed": null
+  },
+  "subject_lock": "perfectly centred in the frame, upright with the 3 o'clock side pointing right, lying flat on the paper",
+  "shots": [
+    {
+      "id": "00",
+      "note": "Portada. No tiene imagen propia: se ve sobre la imagen 01.",
+      "section": {
+        "eyebrow": "Late Edition · 1 of 1",
+        "title": "Eventually",
+        "body": "Llegará. Cuando llegue.",
+        "cta": null,
+        "range": [0.0, 0.08]
+      }
+    },
+    {
+      "id": "01",
+      "prompt": "a single round automatic watch movement, dial side up, white date ring with black numerals around a brass-coloured plate, diameter 48% of the frame width",
+      "motion": "locked-off overhead shot, the white dial descends slowly from just above the camera and settles flat onto the movement",
+      "section": {
+        "eyebrow": "01 / El corazón",
+        "title": "No lleva pila.",
+        "body": "Dentro hay un rotor que gira con cada gesto de tu muñeca y le da cuerda. Mientras lo lleves puesto, sigue latiendo.",
+        "cta": null,
+        "range": [0.05, 0.2]
+      }
+    },
+    {
+      "id": "02",
+      "prompt": "the white dial with blue handwriting now lies on top of the movement, covering it, diameter 54% of the frame width, no hands",
+      "motion": "locked-off overhead shot, two polished steel hands descend slowly and settle onto the centre of the dial",
+      "section": {
+        "eyebrow": "02 / La esfera",
+        "title": "Who cares, I'm already late.",
+        "body": "Los números se cansaron de esperar en su sitio y acabaron amontonados al fondo. La hora exacta nunca fue lo importante.",
+        "cta": null,
+        "range": [0.17, 0.4]
+      }
+    },
+    {
+      "id": "03",
+      "prompt": "polished steel baton hour and minute hands now mounted on the centre, hour hand toward 9 o'clock, minute hand toward the 12-minute mark (about 9:12)",
+      "motion": "locked-off overhead shot, a thin blue seconds hand descends slowly and settles onto the centre of the dial",
+      "section": {
+        "eyebrow": "03 / Las agujas",
+        "title": "Señalan la hora. Más o menos.",
+        "body": "Dos agujas de acero pulido, con una línea de luz para cuando se hace de noche. Sin números a los que apuntar, tú decides qué hora es.",
+        "cta": null,
+        "range": [0.37, 0.6]
+      }
+    },
+    {
+      "id": "04",
+      "prompt": "the matte blue seconds hand with a white arrow tip now mounted on top, pointing toward the 8-second mark",
+      "motion": "locked-off overhead shot, a brushed steel case with its bracelet descends slowly and settles around the dial, enclosing it",
+      "section": {
+        "eyebrow": "04 / La azul",
+        "title": "La única con prisa.",
+        "body": "Una vuelta por minuto, sin descanso. Es la única pieza de color, y la única que nunca llega tarde.",
+        "cta": null,
+        "range": [0.57, 0.8]
+      }
+    },
+    {
+      "id": "05",
+      "prompt": "the finished watch: brushed steel barrel-shaped case 70% of the frame width, flat crystal, crown on the right, integrated flat-link bracelet running straight out of the top and bottom of the frame",
+      "motion": "locked-off overhead shot, the blue seconds hand sweeps smoothly clockwise, nothing else moves",
+      "section": {
+        "eyebrow": "05 / La caja",
+        "title": "Acero para todo lo demás.",
+        "body": "Caja de acero cepillado, cristal de zafiro y brazalete integrado. Hecho para llevarse todos los días, llegues o no.",
+        "cta": null,
+        "range": [0.77, 0.92]
+      }
+    },
+    {
+      "id": "06",
+      "note": "Final. No tiene imagen propia: el último clip sale de la imagen 05 y termina libre.",
+      "section": {
+        "eyebrow": "Late Edition · 1 of 1",
+        "title": "Solo existe uno. Es el tuyo.",
+        "body": "Montado a mano, pieza a pieza, para Pablo.",
+        "cta": null,
+        "range": [0.89, 1.0]
+      }
+    }
+  ],
+  "after_film": {
+    "note": "Secciones normales debajo de la película, sin vídeo. Los datos entre corchetes están por confirmar.",
+    "ficha": {
+      "Movimiento": "[Seiko NH35, automático — por confirmar]",
+      "Caja": "[acero cepillado, ?? mm — por confirmar]",
+      "Cristal": "[por confirmar]",
+      "Esfera": "Blanca, «Who cares, I'm already late», numerales azules",
+      "Agujas": "Acero pulido con luz; segundero azul",
+      "Edición": "Late Edition · 1 of 1",
+      "Montado": "diciembre de 2026, por Pepe"
+    },
+    "uso": [
+      "Darle cuerda y ponerlo en hora",
+      "Cuánto aguanta parado",
+      "Agua y golpes"
+    ]
+  }
+}
