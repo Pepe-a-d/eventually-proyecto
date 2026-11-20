@@ -39,6 +39,16 @@ Escrito el 20 de noviembre de 2026. Recoge lo hecho y decidido en el Mac entre e
 - La vista previa del enlace (la que sale al mandarlo por WhatsApp) enseña la caja cerrada, `site/img/enlace.jpg`, y solo la frase «Llegará. Cuando llegue.». Si la caja cambia a la vista, hay que rehacer también esta imagen.
 - Lo que todavía puede destripar: el paso 5 de las instrucciones enseña el maniquí gris del reloj, y el icono que queda si alguien añade la web a la pantalla de inicio es la esfera del reloj.
 
+**Revisión completa (20 de noviembre, la pidió Pepe).**
+
+- Fallo gordo arreglado: con el móvil en horizontal el texto quedaba montado sobre la película y no se leía. Ahora usa la disposición de escritorio (texto a la izquierda, película a la derecha).
+- Otros arreglos: un solo color de papel en toda la web (`#ECEEF0`, el de la película); el lema de la portada ya no se parte en pantallas muy estrechas; el enlace de la portada no coge el foco del teclado cuando no se ve; texto alternativo en el reloj en hora; manifiesto sin «Un reloj…».
+- Textos: «la caja» es ya solo la caja del regalo (la del reloj pasa a «Por fuera»); en las instrucciones la aguja suelta se llama «la llave», para no confundirla con las agujas del reloj; tutorial sin jerga (frente en vez de panel, soporte en vez de peana, sin nervios, rotor ni pestillos).
+- Instrucciones del reloj: se unieron «Si se ha parado» y «Si lo dejas quieto», se avisa de que el primer clic de la corona no hace nada, y entra «Si adelanta o atrasa».
+- Ficha: fuera las filas «Nombre» y «Edición», que repetían la portada.
+- **No se tocó:** la nota de Pepe a Pablo, la portada, el lema, la frase de la esfera, el reloj en hora y el pie.
+- Sin arreglar, a propósito: en un teléfono de 320 px de ancho (muy raro hoy) el nombre roza la foto del movimiento; el icono de la web es la esfera del reloj; en la primera visita la página no tiene título principal para lectores de pantalla.
+
 **Ojo con el tutorial:**
 
 - Las imágenes salen del modelo v4.1 de la caja, que no está impresa. **Si la caja cambia a la vista, hay que rehacer los fotogramas** (medias lunas en la funda, pomo en la aguja, otro tamaño al medir el reloj).
