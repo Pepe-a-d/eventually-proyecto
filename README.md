@@ -8,7 +8,7 @@ Este repositorio guarda **todo lo que no es la web publicada ni la caja**: las f
 
 | Repositorio | Qué tiene | Visible |
 | --- | --- | --- |
-| [`eventually-proyecto`](https://github.com/Pepe-a-d/eventually-proyecto) (este) | Fuentes de la web, tarjeta, QR, fotos del reloj, resumen de la sesión | Privado |
+| [`eventually-proyecto`](https://github.com/Pepe-a-d/eventually-proyecto) (este) | Fuentes de la web, tarjeta, QR, fotos del reloj, resumen de la sesión | Público |
 | [`eventually`](https://github.com/Pepe-a-d/eventually) | La web publicada: <https://pepe-a-d.github.io/eventually/> | Público |
 | [`eventually-caja`](https://github.com/Pepe-a-d/eventually-caja) | La caja: generadores de Fusion, piezas, reportes y contra-reportes | Público |
 
