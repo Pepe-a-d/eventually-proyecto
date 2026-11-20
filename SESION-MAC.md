@@ -29,6 +29,15 @@ Escrito el 20 de noviembre de 2026. Recoge lo hecho y decidido en el Mac entre e
 - En la portada hay un enlace discreto, «¿Cómo se abre la caja?», que baja directo al tutorial: quien llega con la caja cerrada no tiene que recorrer toda la página. Lo pidió Pepe.
 - Al probar la copia sin conexión salió un fallo que ya existía: una dirección con «?algo» podía enseñar una copia vieja de la página. Arreglado en `site/sw.js`.
 
+**Primera visita sin spoiler (añadido el 20 de noviembre, lo pidió Pepe).**
+
+- La primera vez que alguien abre la web en un teléfono solo ve las instrucciones de la caja. No se enseña nada del reloj, y su película ni se descarga.
+- El reloj sale de dos maneras: al pulsar «Ya lo tengo», al final de las instrucciones, o en cualquier visita hecha **más de 15 minutos después de la primera**. Recargar antes de ese tiempo no enseña el reloj: el iPhone recarga las pestañas por su cuenta al cambiar de aplicación, y eso lo habría destripado a media apertura.
+- La web lo recuerda en cada teléfono por separado. Si se abre en modo privado no puede recordarlo: salen siempre las instrucciones hasta pulsar «Ya lo tengo».
+- **Para probar:** la dirección acabada en `?caja` vuelve a la primera visita; acabada en `?reloj` va directa al reloj.
+- La decisión está en el script de la cabecera de `site/index.html`; lo que se esconde, al final de `site/caja.css`.
+- Lo que todavía puede destripar: el paso 5 de las instrucciones enseña el maniquí gris del reloj, y si se manda el enlace por WhatsApp la vista previa enseña la foto del reloj (`og:image`).
+
 **Ojo con el tutorial:**
 
 - Las imágenes salen del modelo v4.1 de la caja, que no está impresa. **Si la caja cambia a la vista, hay que rehacer los fotogramas** (medias lunas en la funda, pomo en la aguja, otro tamaño al medir el reloj).
@@ -41,6 +50,7 @@ Escrito el 20 de noviembre de 2026. Recoge lo hecho y decidido en el Mac entre e
 - Probarla en un móvil real, sobre todo en un iPhone.
 - Grabar la etiqueta NFC con la dirección de la web.
 - Dar por buenos los textos del tutorial, que son una propuesta de la sesión del PC.
+- Dar por buenos los textos de la puerta al reloj («Esto sigue. Luego.» y «Ya lo tengo»), que son una propuesta de la sesión del Mac.
 
 ## 3. La tarjeta de autenticidad
 
