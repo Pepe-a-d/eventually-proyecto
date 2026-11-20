@@ -21,11 +21,26 @@ Escrito el 20 de noviembre de 2026. Recoge lo hecho y decidido en el Mac entre e
 - **Estilo:** minimalista. Letra de la esfera (Reenie Beanie) en azul. A Pepe le gusta mucho esa letra.
 - Los puntos del scroll donde llega cada pieza están en `TIMELINE` de `tools/pelicula.py` y los rangos de texto en `data-range` de `site/index.html`. Van emparejados: si se toca uno, se toca el otro.
 
+**Tutorial de la caja (añadido el 20 de noviembre).** Lo hizo la sesión del PC (rama `tutorial-caja`, pull request 1 de `eventually`); la sesión del Mac lo revisó, lo fusionó y lo publicó.
+
+- Es una segunda película movida por el scroll, al final de la página, entre «Por si acaso» y el reloj en hora: cómo se abre la caja en cinco gestos y cómo se cierra. 189 fotogramas en `site/frames/caja/`, código en `site/caja.js` y `site/caja.css`. No se descarga hasta que te acercas.
+- Trae también dos notas nuevas en «Por si acaso»: «Si pierdes la aguja» e «Imanes». Con esto quedan puestos la pista de apertura y el aviso del imán.
+- Comprobado en el Mac: móvil y escritorio, sin errores, la película del reloj sigue igual, y funciona sin conexión.
+- Al probar la copia sin conexión salió un fallo que ya existía: una dirección con «?algo» podía enseñar una copia vieja de la página. Arreglado en `site/sw.js`.
+
+**Ojo con el tutorial:**
+
+- Las imágenes salen del modelo v4.1 de la caja, que no está impresa. **Si la caja cambia a la vista, hay que rehacer los fotogramas** (medias lunas en la funda, pomo en la aguja, otro tamaño al medir el reloj).
+- Dos frases prometen cosas sin probar: que la funda sale con «un tirón suave» y que el panel sale tirando de la aguja. Hay que releerlas con la caja en la mano.
+- El reloj del tutorial es un maniquí gris, no el reloj de verdad.
+- **El programa que genera los fotogramas no está en GitHub.** Solo lo tiene el PC. Hay que subirlo.
+
 **Falta:**
 
-- Probarla en un móvil real.
+- Probarla en un móvil real, sobre todo en un iPhone.
 - Grabar la etiqueta NFC con la dirección de la web.
-- Decidir si se añade la pista de apertura de la caja («la aguja abre la caja: adelanta la hora») y el aviso del imán. Está propuesto y **sin contestar**.
+- Decidir dónde va el tutorial. Quien llega desde la etiqueta NFC con la caja cerrada tiene que bajar hasta el final. Una opción: un enlace discreto arriba, «¿Cómo se abre la caja?».
+- Dar por buenos los textos del tutorial, que son una propuesta de la sesión del PC.
 
 ## 3. La tarjeta de autenticidad
 
@@ -87,7 +102,7 @@ Los imanes: 8 en la caja, 2 en la aguja de repuesto, quedan 4.
 2. ¿Está el reloj montado? Si lo está, faltan las medidas.
 3. ¿Cómo quieres que la caja salga de la funda? Que se quede en la mesa al levantar la funda, que aguante colgada, o las dos cosas con dos medias lunas para los dedos.
 4. ¿La aguja lleva pomo?
-5. ¿Se añaden a la web la pista de apertura y el aviso del imán?
+5. ¿Dónde va el tutorial de la caja en la web, y valen sus textos?
 
 ## 6. Cómo trabajamos
 
